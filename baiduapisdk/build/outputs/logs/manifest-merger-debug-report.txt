@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml:2:5-32
+		INJECTED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml
+		INJECTED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml
+		INJECTED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml
+		INJECTED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+uses-sdk
+INJECTED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v4:23.1.1] E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml
+		INJECTED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml
+		INJECTED from E:\ProjectSpace\AndroidStudioProjects\OAuthDemo\baiduapisdk\src\main\AndroidManifest.xml

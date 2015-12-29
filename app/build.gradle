@@ -1,0 +1,36 @@
+// 声明是Android程序
+apply plugin: 'com.android.application'
+
+android {
+    // 编译SDK的版本
+    compileSdkVersion 23
+    // build tools的版本
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        // 应用的包名
+        applicationId "com.example.mypegasus.oauthdemo"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            // 是否进行混淆
+            minifyEnabled false
+            // 混淆文件的位置
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // 编译libs目录下的所有jar包
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.google.code.gson:gson:2.5'
+    //    compile project(':baiduapisdk')
+    compile files('libs/baidu-android-openapi-sdk.jar')
+}
